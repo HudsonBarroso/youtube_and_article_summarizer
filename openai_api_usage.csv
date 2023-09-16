@@ -1,0 +1,5 @@
+timestamp,total_tokens,prompt_tokens,completion_tokens,total_cost_usd,us_date_format
+
+
+16.09.2023 11:21:48,1623,1325,298,0.0025835000000000003,09/16/2023
+16.09.2023 11:40:21,597,143,454,0.0011225,09/16/2023
