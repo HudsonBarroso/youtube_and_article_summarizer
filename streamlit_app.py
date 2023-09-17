@@ -6,16 +6,6 @@ from datetime import datetime
 from langchain.callbacks import get_openai_callback
 from summarizer_agent import summary_agent
 
-"""
-A Streamlit app that uses the LangChain library to generate summaries of user input.
-The app has two tabs:
-    * Chat: This tab allows the user to chat with the language model and generate summaries of their input.
-    * Usage Chart: This tab shows a bar chart of the total OpenAI API usage cost over time.
-Attributes:
-    llm_chain (summarizer_agent.summary_agent): The LangChain agent that is used to generate summaries.
-    messages (list): A list of dictionaries, where each dictionary contains a user message and a bot message.
-"""
-
 st.title("LangChain Chatapp :bird:")
 tab1, tab2 = st.tabs(['Chat', "Usage Chart"])
 
